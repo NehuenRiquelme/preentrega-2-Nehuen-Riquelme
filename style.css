@@ -1,7 +1,15 @@
 body{ 
-    background:url(img/aleksandra-khaprenko-0PPw9irzLIw-unsplash.jpg) rgba(0, 0, 0, 0.3);
+    background:url(img/aleksandra-khaprenko-0PPw9irzLIw-unsplash.jpg) rgba(0, 0, 0, 0.3) !important;
     background-blend-mode:multiply ;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+      background-repeat: no-repeat;
+}
+
+
+@media(max-width:991px){
+    .sidebar{
+        background-color: rgba(37, 52, 65,0.15)!important;
+        backdrop-filter:blur(10px) ;
+    }
 }
