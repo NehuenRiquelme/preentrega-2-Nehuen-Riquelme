@@ -5,6 +5,7 @@ body{
     background-size: cover;
       background-repeat: no-repeat;
 }
+
 .home{ 
     display: flex;
     position: relative;
@@ -128,4 +129,90 @@ z-index: -1;
         background-color: rgba(37, 52, 65,0.15)!important;
         backdrop-filter:blur(10px) ;
     }
+}
+/*/ segunda pagina /*/
+.carousel-inner{
+     max-height: 300px;
+     max-width: 100%;
+     margin-top: 10%;
+    
+}
+
+
+.cont-hm{
+   max-height: 100%;
+    background-color: #bbb2b29a;
+}
+.container.brr{
+    position: relative;
+    margin-top: 10%;
+}
+.container .barra{
+    margin: 2% 0;
+
+}
+.container-brr .barra p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container-brr .barra1 p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}.container-brr .barra2 p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}.container-brr .barra3 p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container-brr .barra .progreso{
+    position: relative;
+    width: 95%;
+    height: 6px;
+    background: #1d60c4;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px 0;
+
+
+}
+/* */
+.container-brr .barra1 .progreso1{
+    position: relative;
+    width: 70%;
+    height: 6px;
+    background: #1d60c4;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px 0;
+
+
+}
+    .container-brr .barra2 .progreso2{
+    position: relative;
+    width: 90%;
+    height: 6px;
+    background: #1d60c4;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px 0;
+
+
+}
+
+
+.container-brr .barra3 .progreso3{
+    position: relative;
+    width: 70%;
+    height: 6px;
+    background: #2763bd;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px 0;
+
+
 }
