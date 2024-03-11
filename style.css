@@ -5,24 +5,25 @@ body{
     background-size: cover;
       background-repeat: no-repeat;
 }
-.home{
-    margin-top: 10vh;
-    height: 70vh;
+.home{ 
+    margin: 5%;
+    height: 80% ;
     display: flex;
 align-items: center;
 padding: 0 10%;
-
 }
 .home-content{
    max-width: 600px ;
+ 
 }
 .home-content h1{
-    font-size: 75px;
+    font-size: 56px;
     font-weight: 700;
     line-height: 1.2;
     color-interpolation-filters: auto #343434 ;
 }
-.home-content h2{
+.home-content h3{
+    font-size: 25px;
     color: #2763bd;
 }
 .home-content p {
@@ -31,6 +32,26 @@ padding: 0 10%;
     margin: 20px 0 40px;
  
 }
+.home-content img{
+    position: absolute;
+    width: 30%;
+    left: 60%;
+    top: 30%;
+}
+@media(max-width:1330px){
+    .home-content{
+        margin-top: 30%;
+    }
+    .home-content img{
+    position: relative;
+    width: 60%;
+    left: 0%;
+    margin-bottom: 5%;
+    }
+}
+
+
+
 .home-content .btn-box{
     
     display:flex;
