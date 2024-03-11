@@ -38,7 +38,7 @@ padding: 0 10%;
     left: 60%;
     top: 30%;
 }
-@media(max-width:1330px){
+@media(max-width:991px){
     .home-content{
         margin-top: 30%;
     }
